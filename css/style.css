@@ -1,0 +1,158 @@
+.cardealer_post .price {
+	text-align: right;
+	font-size: 130%;
+}
+
+.cardealer_post .price .price {
+	font-weight: bolder;
+	color: #006ec7;
+}
+
+.cardealer_post .car_details,
+.cardealer_post .car_list,
+.cardealer_post .car_list_new {
+	width: 100%;
+}
+
+.cardealer_post nav {
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.cardealer_post nav .show_car_list {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+	color: inherit;
+	background-color: #659324;
+    background-image: linear-gradient(to bottom, #8c3, #793);
+	border-radius: 6px;
+	box-shadow: 0px 0px 2px #000;
+}
+
+.cardealer_post nav .show_car_list:hover {
+	text-decoration: none;
+	box-shadow: 0px 0px 8px #3a4;
+}
+
+.cardealer_post table {
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+.cardealer_post table tr,
+.cardealer_post .car_list_new .car {
+	background: #efefef;
+	font-size: 95%;
+}
+
+.cardealer_post table .even_row,
+.cardealer_post .car_list_table thead tr {
+	background: #dddddd;
+}
+
+.cardealer_post .car_list_table tbody * {
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+	.cardealer_post .car_list_table tr td:nth-of-type(4),
+	.cardealer_post .car_list_table tr td:nth-of-type(5),
+	.cardealer_post .car_list_table thead th:nth-of-type(5),
+	.cardealer_post .car_list_table thead th:nth-of-type(6) {
+		display: none;
+	}
+}
+
+.cardealer_post table tr th,
+.cardealer_post table tr td,
+.cardealer_post .car_list_new .car {
+	padding: 3px 10px;
+	border: 1px solid #ccc;
+}
+
+.cardealer_post table tr th,
+.cardealer_post .car_list_new .car .car_price {
+	color: #444;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.cardealer_post .car_details_table tr th {
+	width: 22%;
+}
+
+.cardealer_post .car_details_table tr td {
+	width: 28%;
+}
+
+.cardealer_post .car_list_table tr th div {
+	display: inline-block;
+}
+
+.cardealer_post .car_list_table tr th .car_thumbnail {
+	width: 70px;
+	height: 40px;
+}
+
+.cardealer_post .car_features {
+	margin-left: 20px;
+}
+
+.cardealer_post .car_features .feature {
+	display: inline-block;
+	width: 32%;
+	vertical-align: top;
+}
+
+.cardealer_post .car_features .feature .et-custom-list ul {
+	list-style-image: url('../img/list-checkmark.png');
+}
+
+.cardealer_post .car_features .feature .et-custom-list ul,
+.cardealer_post .additional {
+	padding-left: 20px;
+}
+
+.cardealer_post .additional {
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.cardealer_post .additional .title {
+	color: #444;
+}
+
+.cardealer_post .car_list_new {
+	text-align: center;
+}
+
+.cardealer_post .car_list_new .car {
+	display: inline-block;
+	width: 24%;
+	min-width: 125px;
+	margin: 2px;
+	padding: 5px 3px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.cardealer_post .car_list_new .car div,
+.cardealer_post .car_list_new .car h5,
+.cardealer_post .car_list_new .car h6 {
+	font-size: 90%;
+}
+
+.cardealer_post .car_list_new .car .car_thumbnail,
+.cardealer_post .car_list_new .car .car_thumbnail * {
+	max-height: 180px;
+}
+
+.cardealer_post .car_list_new .car .car_name,
+.cardealer_post .car_list_new .car .car_price {
+	height: 2.1em;
+	line-height: 1em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
